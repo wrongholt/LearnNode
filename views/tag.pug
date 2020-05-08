@@ -1,7 +1,9 @@
 extends layout
+
 include mixins/_storeCard
+
 block content
-  .inner  
+  .inner
     h2 #{tag || 'Tags'}
     ul.tags
       each t in tags
